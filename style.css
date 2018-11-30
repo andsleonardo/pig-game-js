@@ -135,18 +135,19 @@ i {
     transition: margin 0.3s;
 }
 
-.btn-new { top: 45px;}
-.btn-roll { top: 403px;}
-.btn-hold { top: 467px;}
+.btn-new { top: 65px;}
+.btn-roll { top: 463px;}
+.btn-hold { top: 517px;}
 
 .dice {
     position: absolute;
     left: 50%;
-    top: 178px;
     transform: translateX(-50%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
+#dice-1 { top: 278px; }
+#dice-2 { top: 158px; }
 
 .winner { background-color: floralwhite; }
 .winner .player-name { font-weight: 600; color: #EB4D4D; }
